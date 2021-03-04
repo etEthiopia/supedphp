@@ -1,14 +1,14 @@
 <?php
   // DB Params
   define('DB_HOST', 'localhost');
-  define('DB_USER', 'root');
-  define('DB_PASS', '');
-  define('DB_NAME', 'suped');
+  define('DB_USER', 'lineaddi_dbadmin');
+  define('DB_PASS', 'dbadmin1005lineaddis');
+  define('DB_NAME', 'lineaddi_lineaddis');
 
   // App Root
   define('APPROOT', dirname(dirname(__FILE__)));
   // URL Root
-  define('URLROOT', 'http://localhost/suped');
+  define('URLROOT', 'https://suped.org');
   // Site Name
   define('SITENAME', 'SupEd');
   // App Version

@@ -244,10 +244,10 @@
                             <p class="mbr-text mbr-fonts-style mt-3 display-7">
                             <?php if (strlen($data['news'][1]->description) > 147) :?>
                                 <?php echo substr($data['news'][1]->description, 0, 146);?>
-                                    <a href="<?php echo URLROOT;?>/pages/readnews/<?php echo $data['news'][0]->id ?>" class="text-primary">Read more..</a></p>
+                                    <a href="<?php echo URLROOT;?>/pages/readnews/<?php echo $data['news'][1]->id ?>" class="text-primary">Read more..</a></p>
                             <?php else:?>
                             <?php echo $data['news'][1]->description;?>
-                                    <a href="<?php echo URLROOT;?>/pages/readnews/<?php echo $data['news'][0]->id ?>" class="text-primary">Read more..</a></p>
+                                    <a href="<?php echo URLROOT;?>/pages/readnews/<?php echo $data['news'][1]->id ?>" class="text-primary">Read more..</a></p>
                             <?php endif?>
                         </div>
 
@@ -484,7 +484,7 @@
             </div>
             <div class="row justify-content-center mt-4">
                 <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                    <form action="form/form_sender.php" method="POST" class="mbr-form form-with-styler mx-auto"
+                    <form action="<?php echo URLROOT;?>/pages/contactform" method="POST" class="mbr-form form-with-styler mx-auto"
                         data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true"
                             value="uG3Cr0CkI6QZawUdKLYKzjAGO+M04+v/vlqSYa2ML8+Ny2rfjdmLoc4Uuztpw3ooLjfwdccwFHKwJ2NpeX+93vD47eqw+Dizg69WldAiAu/Gjy5bs0R+nHkAg8m/dTic">
 
@@ -529,6 +529,7 @@
             </div>
         </div>
     </section>
+
 
     <section class="footer6 cid-skntpQ9IiO" once="footers" id="footer6-q">
 

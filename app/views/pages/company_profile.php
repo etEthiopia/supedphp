@@ -532,7 +532,7 @@
             </div>
             <div class="row justify-content-center mt-4">
                 <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                    <form action="form/form_sender.php" method="POST" class="mbr-form form-with-styler mx-auto"
+                    <form action="<?php echo URLROOT;?>/pages/contactform" method="POST" class="mbr-form form-with-styler mx-auto"
                         data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true"
                             value="uG3Cr0CkI6QZawUdKLYKzjAGO+M04+v/vlqSYa2ML8+Ny2rfjdmLoc4Uuztpw3ooLjfwdccwFHKwJ2NpeX+93vD47eqw+Dizg69WldAiAu/Gjy5bs0R+nHkAg8m/dTic">
 
