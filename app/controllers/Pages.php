@@ -6,13 +6,14 @@
     
     public function index(){
      
-      $this->newsModel = $this->model('News');
-      $newslist = $this->newsModel->geLatesttNews();
+      // $this->newsModel = $this->model('News');
+      // $newslist = $this->newsModel->geLatesttNews();
 
-      $data = [
-        'news' => $newslist
-      ];
-      $this->view('pages/index', $data);
+      // $data = [
+      //   'news' => $newslist
+      // ];
+      // $this->view('pages/index', $data);
+      $this->view('pages/index');
     }
 
     public function news(){

@@ -192,7 +192,7 @@
         </div>
     </section>
 
-    <?php if(!empty($data['news'])) : ?>
+    <!-- <?php if(!empty($data['news'])) : ?>
     <section class="content1 cid-skpidrJrPF" id="content1-j">
 
 
@@ -259,7 +259,7 @@
             </div>
         </div>
     </section>
-    <?php endif?>
+    <?php endif?> -->
 
 
     <section class="gallery6 mbr-gallery cid-so8NsIvx18" id="gallery6-3u">
